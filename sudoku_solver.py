@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-numeric_grid = [
+custom_grid = [
     [0, 0, 0, 0, 1, 0, 0, 0, 0],
     [0, 0, 0, 3, 8, 7, 0, 9, 0],
     [0, 1, 0, 0, 0, 0, 3, 0, 8],
@@ -94,7 +94,7 @@ def main():
     if int_num == 1:
         main_menu(basic_grid)
     elif int_num == 2:
-        main_menu(numeric_grid)
+        main_menu(custom_grid)
     elif int_num == 0:
         main_menu(zero_grid)
     else:
