@@ -4,7 +4,7 @@ Simple sudoku solver, using recursion, with in-terminal visualizer
 
 To solve your sudoku puzzle:
 
-1. Fill in this format: (easily visualized with an IDE such as VSC)
+1. Fill in this format: (easily visualized with an IDE or text editor such as VSC)
 
 custom_grid = [
 [0, 0, 0, 0, 0, 0, 0, 0, 0],
